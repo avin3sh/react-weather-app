@@ -78,7 +78,7 @@
     cursor: pointer;
     padding-right: 0.5rem;
   }
-  
+
   .more-info-reverse{
     padding-right: 0rem;
     padding-left: 0.5rem;
@@ -113,7 +113,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #050609;
+    background-color: #0c1b33;
     margin-top: 0.25rem;
     padding: 0.25rem;
     padding-left: 1rem;
