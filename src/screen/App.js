@@ -237,6 +237,7 @@ class App extends Component {
             : this._renderFutureWeatherContent()}
 
           <div className="additionalInfo">
+            {!this.state.currWeather && this._renderActiityIndicator()}
             <div id="sunrise" className="additional-label">
               <span>&#127749; sunrise</span>{" "}
               <span>
@@ -292,6 +293,22 @@ class App extends Component {
       </div>
     );
   }
+
+  _renderActiityIndicator = () => {
+    return (
+      <div className="activityIndicator">
+        <div className="aiGraphic">
+          <img
+            src={require("../assets/gifs/loader.gif")}
+            height={50}
+            width={50}
+            alt="Activity Indicator"
+          />
+        </div>
+        <span className="aiText">Please wait...</span>
+      </div>
+    );
+  };
 
   _renderMainContent = () => {
     return (
