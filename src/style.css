@@ -72,13 +72,18 @@
     color: #515556;
   }
 
-  #more-info{
+  .more-info{
     color: #f3f3f3;
     font-size: 3rem;
     cursor: pointer;
     padding-right: 0.5rem;
   }
   
+  .more-info-reverse{
+    padding-right: 0rem;
+    padding-left: 0.5rem;
+  }
+
   .menuBtn:hover{
     background-color: #3c127c;
   }

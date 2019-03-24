@@ -353,7 +353,7 @@ class App extends Component {
           </div>
         </div>
         <div className="menuBtn" onClick={this.toggleContent}>
-          <span id="more-info">&gt;</span>
+          <span className="more-info">&gt;</span>
         </div>
       </div>
     );
@@ -363,9 +363,9 @@ class App extends Component {
     return (
       <div className="mainInfo">
         <div className="menuBtn" onClick={this.toggleContent}>
-          <span id="more-info">&lt;</span>
+          <span className="more-info more-info-reverse">&lt;</span>
         </div>
-        <div className="mainContent mainContent-reverse">
+        <div className="mainContent">
           <div className="future-list">
             {this.state.futureTemp && this._renderFutureList()}
           </div>
