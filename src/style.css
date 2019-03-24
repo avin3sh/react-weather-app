@@ -1,0 +1,141 @@
+  .mainInfo{
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+    background-color: #511d9c;
+  }
+  
+  .mainContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-right: -3rem;
+  }
+  
+  .menuBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #cityName{
+    color: #f3f3f3;
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+  
+  #country{
+    color: #ffffff;
+    font-size: 1.2rem;
+    opacity: 0.7;
+  }
+
+  #temperature{
+    color: #f3f3f3;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+  .additionalInfo{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fefefe;
+    height: 30%;
+    border-radius: 0px 0px 1rem 1rem;
+  }
+
+  .additionalInfo > .additional-label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+  }
+  
+  .additional-label > span {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+  #sunrise > span{
+    color: #4d94e2;
+  }
+  #sunset > span{
+    color: #e55b5b;
+  }
+  
+  #tomorrow-range{
+    color: #515556;
+  }
+
+  #more-info{
+    color: #f3f3f3;
+    font-size: 3rem;
+    cursor: pointer;
+    padding-right: 0.5rem;
+  }
+  
+  .menuBtn:hover{
+    background-color: #3c127c;
+  }
+
+  #humidity, #wind-speed{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #humidity > span, #wind-speed > span {
+      color: #d1d1d1;
+      margin-right: 0.5rem;
+      margin-top: 0.25rem;
+  }
+
+  .future-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex:1;
+    margin-left: -4rem;
+  }
+  
+  .future-list > .day-record{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #050609;
+    margin-top: 0.25rem;
+    padding: 0.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .future-list > .day-record > span{
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  .up-emoji{
+    color: #d91e36;
+  }
+  
+  .down-emoji{
+    color: #bfd7ea;
+  }
+  
+  .day-temp > .temp{
+    color: #ffffff;
+  }
+
+    body{
+    background-color: #b8afaf;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
